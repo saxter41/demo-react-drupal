@@ -11,16 +11,12 @@ import AppMenu from './components/AppMenu';
 function App() {
   return (
     <div className="App">
-      {<>
-        <AppHeader />
-        <AppMenu />
-      </>}
+      <AppHeader />
+      <AppMenu />
       <div className="App-body">
         <div className="App-region-left">
-          <>
-            {<NodeList />}
-            {<ParticlesBg color="#ff0000" num={2} type="polygon" bg={true}/>}
-          </>
+          <NodeList />
+          <ParticlesBg color="#ff0000" num={2} type="polygon" bg={true}/>
         </div>
         <div className="App-content">
           <BrowserRouter>
