@@ -48,7 +48,7 @@ const Node = (props) => {
     }, [props]);
   return (
     <div>
-      {content.data &&
+      {content.data ? ( // &&
         <>
         <div className="App-title-content">
           <h1 className="App-node-title">{content.data.attributes.title}</h1>
@@ -66,7 +66,9 @@ const Node = (props) => {
           </div>
         </div>
         </>
-      }
+      ) : (
+        <NoData />
+      )}
     </div>
   );
 };
