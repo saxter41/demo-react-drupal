@@ -1,0 +1,56 @@
+/* .App {
+  text-align: center;
+  background-color: #282c34;
+  color: #61dafb;
+} */
+
+body {
+  min-width: min-content;
+}
+
+.App-body {
+  display: flex;
+}
+
+.App-region-left {
+  margin-left: 1em;
+}
+
+.App-content {
+  margin-top: auto;
+  /* border: 1px solid #000; */
+  margin: 0em auto;
+  max-width: 1000px;
+  /* padding-left: 2em;
+  margin: auto; 
+  margin-left: 0em; */ 
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border: 1px solid #EB62DD;
+  margin-bottom: -1em;
+}
+
+input, textarea, button {
+  border: 0px solid #444;
+  /* margin: 0.5em 0.5em 0.5em 0; */
+  padding: 0.5em;
+  background-color: #663399;
+  color: white;
+}
+
+input[type="submit"] {
+  padding: 0.5em;
+  color: white;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  border-color: yellowgreen;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,66 @@
+.App-node-list {
+    transform: skewX(0deg);
+  }
+  
+  .App-node-list a {
+    text-decoration:none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .App-node-list a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .App-node-list a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .App-node-list a:active {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .App-node-list a:hover {
+    background-color: #EB62DD;
+    color: white;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+  
+  }
+  
+  .App-node-list-title {
+    background-color: #663399;
+    transform: skewX(30deg);
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .App-node-list-title h2 {
+    transform: skewX(-30deg);
+    padding: 0.4em;
+    color: white;
+    /* padding-left: 3em; */
+  }
+
+.App-left {
+    background-color: #67DAF9;
+    transform: skewX(-6deg);
+    display: inline-table;
+    padding-left: 15px;
+    margin-left: -0.5em;
+    max-width: 300px;
+    margin-top: 5px;
+}
+
+.App-list {
+    transform: skewX(6deg);
+    margin-left: 0em;
+    margin-bottom: 2em;
+    margin-right: 0.5em;
+    margin-top: 1.5em;
+}
