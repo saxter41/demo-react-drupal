@@ -22,7 +22,6 @@ function App() {
           <BrowserRouter>
             <Route exact path="/" component={props => <Node {...props} />}></Route>
             <Route path="/node-list" component={props => <NodeListTeaser {...props} />}></Route>
-            <Route path="/node/3824992f-a9e8-437c-9292-1e5f77e3323a" component={props => <Node {...props} />}></Route>
             <Route path="/node/:id" component={props => <Node {...props} />}></Route>
           </BrowserRouter>
         </div>
