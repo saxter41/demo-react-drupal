@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30937ccf697af424cc202bc3637d8435",
+    "content-hash": "a66b5ff3174a90e0333de7de6928aa19",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1161,6 +1161,62 @@
             "time": "2020-09-16T11:22:21+00:00"
         },
         {
+            "name": "drupal/decoupled_router",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/decoupled_router.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/decoupled_router-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "9ca95f68b1ebd889e80ca3aa73afbfb47fd6a3f6"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/redirect": "^1.0@beta"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1600586098",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Mateu Aguiló Bosch",
+                    "homepage": "https://www.drupal.org/user/103796",
+                    "email": "mateu.aguilo.bosch@gmail.com"
+                },
+                {
+                    "name": "e0ipso",
+                    "homepage": "https://www.drupal.org/user/550110"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                }
+            ],
+            "description": "Provides an endpoint that will help you resolve path aliases and redirects for entity related routes.",
+            "homepage": "https://www.drupal.org/project/decoupled_router",
+            "support": {
+                "source": "https://git.drupalcode.org/project/decoupled_router"
+            }
+        },
+        {
             "name": "drupal/devel",
             "version": "2.1.0",
             "source": {
@@ -1315,6 +1371,59 @@
             }
         },
         {
+            "name": "drupal/subrequests",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/subrequests.git",
+                "reference": "3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/subrequests-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "58d4c1d0204a1e727dcd0df19dffc30f0cb01a0d"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "galbar/jsonpath": "^1.0"
+            },
+            "require-dev": {
+                "justinrainbow/json-schema": "^5.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0",
+                    "datestamp": "1593759501",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Mateu Aguiló Bosch",
+                    "homepage": "https://www.drupal.org/user/550110",
+                    "email": "mateu.aguilo.bosch@gmail.com"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                }
+            ],
+            "description": "Add a front controller that you can use to make subrequests.",
+            "homepage": "https://www.drupal.org/project/subrequests",
+            "support": {
+                "source": "https://git.drupalcode.org/project/subrequests"
+            }
+        },
+        {
             "name": "easyrdf/easyrdf",
             "version": "0.9.1",
             "source": {
@@ -1433,6 +1542,54 @@
                 "validator"
             ],
             "time": "2020-02-13T22:36:52+00:00"
+        },
+        {
+            "name": "galbar/jsonpath",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Galbar/JsonPath-PHP.git",
+                "reference": "36d3ac57b1a62ff507d7751d797a9e03ffbd1385"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Galbar/JsonPath-PHP/zipball/36d3ac57b1a62ff507d7751d797a9e03ffbd1385",
+                "reference": "36d3ac57b1a62ff507d7751d797a9e03ffbd1385",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "sami/sami": ">=3.3.0",
+                "satooshi/php-coveralls": ">=1.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JsonPath\\": "src/Galbar/",
+                    "Utilities\\": "src/Galbar/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Alessio Linares",
+                    "email": "alessio@alessio.cc",
+                    "role": "Software Engineer"
+                }
+            ],
+            "description": "JSONPath implementation for querying and updating JSON objects",
+            "keywords": [
+                "json",
+                "jsonpath",
+                "path"
+            ],
+            "time": "2020-06-01T15:18:22+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
