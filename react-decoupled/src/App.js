@@ -16,7 +16,7 @@ function App() {
       <div className="App-body">
         <div className="App-region-left">
           <NodeList />
-          <ParticlesBg color="#ff0000" num={2} type="polygon" bg={true}/>
+          {/* <ParticlesBg color="#ff0000" num={2} type="polygon" bg={true}/> */}
         </div>
         <div className="App-content">
           <BrowserRouter>
